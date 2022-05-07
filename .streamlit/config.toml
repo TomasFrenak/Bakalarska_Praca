@@ -1,0 +1,27 @@
+[theme]
+
+# The preset Streamlit theme that your custom theme inherits from. One of "light" or "dark".
+[mapbox]
+
+# Configure Streamlit to use a custom Mapbox token for elements like st.pydeck_chart and st.map. To get a token for yourself, create an account at https://mapbox.com. It's free (for moderate usage levels)!
+# Default: ""
+token = "pk.eyJ1IjoidHJpbXBlYWNodSIsImEiOiJjbDJ1bjhyZXAwM29iM2ltcGQzYTB6amJkIn0.hlufdpZeMERBseJRbNRfCw"
+
+base = "light"
+
+# Primary accent color for interactive elements.
+primaryColor = "#366ee8"
+
+
+# Background color for the main content area.
+#backgroundColor =
+
+# Background color used for the sidebar and most interactive widgets.
+secondaryBackgroundColor = "#36cee8"
+
+
+# Color used for almost all text.
+#textColor =
+
+# Font family for all text in the app, except code blocks. One of "sans serif", "serif", or "monospace".
+#font =
