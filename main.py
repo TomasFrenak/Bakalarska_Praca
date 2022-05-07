@@ -111,7 +111,6 @@ def main():
             fatal_crashes_map(df)
 
     elif option == "Vytvoriť vizualizáciu":
-        col1,col2 = st.columns(2)
         choice = col1.radio("Vyberte si sledované kritérium:", ("Druh kolízie","Typ dopravného prostriedku"))
         filter = col2.radio("Pohlavie vodiča", ("Všetko", "Muž", "Žena"))
         filter2 = st.slider("Vek vodiča", min_value=15, max_value=100, value=100, step=1)
