@@ -100,8 +100,8 @@ def main():
         link_code = '[Zrojový kód webstránky](https://github.com/TomasFrenak/Bakalarska_Praca)'
         st.markdown(link_code, unsafe_allow_html=True)
             
-        # link_bakalarka = '[Stiahnuť bakalársku prácu]()'
-        # st.markdown(link_bakalarka, unsafe_allow_html=True)
+        link_bakalarka = '[Stiahnuť bakalársku prácu](https://opac.crzp.sk/?fn=detailBiblioForm&sid=D9F0BB0A8DA992698EA790D31B33&seo=CRZP-detail-kniha)'
+        st.markdown(link_bakalarka, unsafe_allow_html=True)
 
     if option == 'Vizualizácie z bakalárskej práce':
         with st.spinner('Načítavam...'):
