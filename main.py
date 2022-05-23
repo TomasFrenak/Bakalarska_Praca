@@ -6,6 +6,7 @@ import seaborn as sns
 from PIL import Image
 
 from data_cleaning import *
+from last_fatal_crash import get_last_fatal
 
 def streamlit_config(): 
     st.set_page_config(
@@ -105,6 +106,7 @@ def main():
 
     if option == 'Vizualizácie z bakalárskej práce':
         with st.spinner('Načítavam...'):
+            get_last_fatal(col1,col2)
             driver_age_plot(df,col1)
             driver_gender_plot(df,col2)
             time_graph()
